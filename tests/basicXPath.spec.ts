@@ -16,7 +16,7 @@ test(`Learning to locate element with xpath`,async({page})=>{
 
 
 
-test.only(`Learning to locate element with multiple matches`,async({page})=>{
+test(`Learning to locate element with multiple matches`,async({page})=>{
 
     await page.goto("http://leaftaps.com/opentaps/control/main")
 
